@@ -1,0 +1,59 @@
+.red-line {
+    height: 3px;
+    background-color: red;
+    margin-bottom: 20px;
+  }
+
+  .category-search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+
+    min-height: 400px; /* Fixe une hauteur uniforme */
+    overflow-y: auto; /* Active le défilement vertical si le contenu dépasse */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Assure un bon espacement interne */
+  }
+  
+  .card-body {
+    background: rgba(245, 168, 172, 0.5); /* Couche de transparence */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .category-search-bar {
+    margin: 0; /* Supprime les marges */
+    padding: 0; /* Supprime les paddings */
+  }
+  
+  .category-menu {
+    margin-right:5px;
+  }
+  
+  .search-bar {
+    margin-left: 100px;
+  }
+  
+  .header-spacing {
+    margin-top: 20px; /* Ajustez selon le design */
+    margin-bottom: 10px; /* Réduit l'espace */
+  }
+
+  
+  .card-body {
+    flex-grow: 1;
+  }
+  

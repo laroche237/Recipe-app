@@ -1,0 +1,150 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-toggler {
+  border: none; /* Supprime la bordure du bouton */
+}
+
+.navbar-toggler-icon {
+  background-color: white; /* Couleur des barres */
+}
+
+.dropdown-menu.show {
+  background-color: #fff; /* Fond blanc du menu déroulant */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre */
+}
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+.dropdown-menu {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+/* Logo principal */
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 36px;
+  letter-spacing: 2px;
+  color: #ee234f;
+}
+
+/* Barre de navigation */
+.nav-link {
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.nav-link:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}
+
+/* Barre de recherche */
+.search-bar .form-control {
+  border-radius: 0;
+}
+
+.search-bar .btn {
+  border-radius: 0;
+}
+.red-line {
+  height: 3px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.main-menu a:hover {
+  background-color: #e91868;
+}
+
+.content {
+  width: 80%;
+  padding: 20px;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.recipe-card {
+  width: 500px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.recipe-card button {
+  padding: 10px 15px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recipe-card button:hover {
+  background-color: #e64a19;
+}
+
+.recipe-details {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.recipe-photo-large {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+#top-menu {
+  position: fixed; /* Le menu reste fixé */
+  top: 0; /* À 0px du haut de l'écran */
+  left: 0; /* À 0px du bord gauche */
+  width: 100%; /* Le menu s'étend sur toute la largeur de l'écran */
+  z-index: 1000; /* S'assure que le menu reste au-dessus des autres éléments */
+}
