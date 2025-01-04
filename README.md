@@ -12,12 +12,12 @@ Welcome to the Recipe App! This application is designed to help users organize, 
 - **Filter Recipes**: Quickly find recipes based on their category.
 - **Search Functionality**: Add a search bar for finding recipes by name or ingredients.
 
-![principal-interface](recipe app.PNG "principal interface")
-![Add-Recipe](add recipe.PNG "Add recipe")
-![View-recipe](view recipe modify.PNG "View recipe and modify")
-![add-comments](add  comments and planify it.PNG "add comments")
-![delete-recipes](delete recipe.PNG "Delete recipes")
-![planed-recipe](delete recipe.PNG "Planned recipes")
+![principal-interface](recipe_app.PNG "principal interface")
+![Add-Recipe](add_recipe.PNG "Add recipe")
+![View-recipe](view_recipe_modify.PNG "View recipe and modify")
+![add-comments](add_comments_and_planify_it.PNG "add comments")
+![delete-recipes](delete_recipe.PNG "Delete recipes")
+![planed-recipe](planned_recipes.PNG "Planned recipes")
 
 ## Technologies Used
 
